@@ -1,0 +1,44 @@
+{
+  "common": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "cart": "Warenkorb",
+    "addToCart": "In den Warenkorb"
+  },
+  "home": {
+    "hero": {
+      "title": "Nachhaltige Luxus zum Greifen nah",
+      "subtitle": "Entdecken Sie Bomwolles handgefertigte Lederwaren. Wo zeitlose Eleganz auf umweltbewusstes Handwerk trifft.",
+      "cta": {
+        "shop": "Kollektion entdecken",
+        "learnMore": "Mehr erfahren"
+      }
+    },
+    "featuredProducts": "Ausgewählte Produkte",
+    "values": {
+      "title": "Unsere Werte",
+      "sustainability": {
+        "title": "Nachhaltigkeit",
+        "description": "Wir verpflichten uns, umweltfreundliche Materialien und nachhaltige Praktiken in allen unseren Produkten zu verwenden."
+      },
+      "quality": {
+        "title": "Qualitätshandwerk",
+        "description": "Jedes Bomwolle-Produkt wird von erfahrenen Handwerkern sorgfältig gefertigt, um höchste Qualität zu gewährleisten."
+      },
+      "design": {
+        "title": "Zeitloses Design",
+        "description": "Unsere Designs verbinden klassische Eleganz mit moderner Funktionalität und schaffen so Stücke, die die Zeit überdauern."
+      }
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Bei Bomwolle ist es unsere Mission, nachhaltige, hochwertige Lederwaren zu kreieren, die zeitlose Eleganz mit moderner Funktionalität verbinden. Wir streben danach, unseren ökologischen Fußabdruck zu minimieren und gleichzeitig die Schönheit und Langlebigkeit unserer Produkte zu maximieren."
+    },
+    "newsletter": {
+      "title": "Begleiten Sie uns auf unserer nachhaltigen Reise",
+      "description": "Abonnieren Sie unseren Newsletter für exklusive Angebote, neue Produktveröffentlichungen und Einblicke in unsere nachhaltigen Praktiken.",
+      "cta": "Jetzt abonnieren"
+    }
+  }
+}
+

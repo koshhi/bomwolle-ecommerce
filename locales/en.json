@@ -1,0 +1,44 @@
+{
+  "common": {
+    "home": "Home",
+    "products": "Products",
+    "cart": "Cart",
+    "addToCart": "Add to Cart"
+  },
+  "home": {
+    "hero": {
+      "title": "Sustainable Luxury at Your Fingertips",
+      "subtitle": "Discover Bomwolle's handcrafted leather goods. Where timeless elegance meets eco-conscious craftsmanship.",
+      "cta": {
+        "shop": "Shop Collection",
+        "learnMore": "Learn More"
+      }
+    },
+    "featuredProducts": "Featured Products",
+    "values": {
+      "title": "Our Values",
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "We are committed to using eco-friendly materials and sustainable practices in all our products."
+      },
+      "quality": {
+        "title": "Quality Craftsmanship",
+        "description": "Each Bomwolle product is meticulously crafted by skilled artisans to ensure the highest quality."
+      },
+      "design": {
+        "title": "Timeless Design",
+        "description": "Our designs blend classic elegance with modern functionality, creating pieces that stand the test of time."
+      }
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "At Bomwolle, our mission is to create sustainable, high-quality leather goods that combine timeless elegance with modern functionality. We strive to minimize our environmental impact while maximizing the beauty and durability of our products."
+    },
+    "newsletter": {
+      "title": "Join Our Sustainable Journey",
+      "description": "Subscribe to our newsletter for exclusive offers, new product releases, and insights into our sustainable practices.",
+      "cta": "Subscribe Now"
+    }
+  }
+}
+

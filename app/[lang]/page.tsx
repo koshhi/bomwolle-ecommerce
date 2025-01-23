@@ -1,14 +1,12 @@
-"use client"
-
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { FeaturedProducts } from "@/components/FeaturedProducts"
 import { BrandValues } from "@/components/BrandValues"
 import { getAllProducts } from "@/lib/productData"
-import { useTranslations } from "@/hooks/useTranslations"
+import { getTranslations } from "@/lib/getTranslations"
 
-export default function Home() {
-  const { t } = useTranslations()
+export default function Home({ params: { lang } }: { params: { lang: string } }) {
+  const t = getTranslations(lang)
   const allProducts = getAllProducts()
   const featuredProducts = allProducts.slice(0, 3) // Get first 3 products as featured
 
@@ -20,10 +18,10 @@ export default function Home() {
           <p className="text-lg leading-8 text-muted-foreground max-w-2xl mx-auto mb-8">{t.home.hero.subtitle}</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild size="lg">
-              <Link href="/products">{t.home.hero.cta.shop}</Link>
+              <Link href={`/${lang}/products`}>{t.home.hero.cta.shop}</Link>
             </Button>
             <Button variant="outline" asChild size="lg">
-              <Link href="/about">{t.home.hero.cta.learnMore}</Link>
+              <Link href={`/${lang}/about`}>{t.home.hero.cta.learnMore}</Link>
             </Button>
           </div>
         </div>

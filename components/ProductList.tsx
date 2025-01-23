@@ -13,6 +13,7 @@ export type Product = {
   image: string
   color: string
   type: string
+  basePrice: number
 }
 
 type ProductListProps = {
@@ -62,7 +63,7 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
                     className="w-full h-64 object-cover mb-4"
                   />
                   <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
-                  <p className="text-muted-foreground mb-2">€{product.price}</p>
+                  <p className="text-muted-foreground mb-2">€{product.basePrice}</p>
                   <p className="text-sm text-muted-foreground">
                     {product.color} | {product.type}
                   </p>

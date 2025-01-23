@@ -19,9 +19,9 @@ export const products: Product[] = [
       "A timeless leather tote, perfect for everyday use. Made with sustainable practices and premium materials.",
     basePrice: 299,
     variants: [
-      { id: 1, color: "Brown", image: "/placeholder.svg", price: 299 },
-      { id: 2, color: "Black", image: "/placeholder.svg", price: 299 },
-      { id: 3, color: "Tan", image: "/placeholder.svg", price: 319 },
+      { id: 1, color: "Brown", image: "https://placehold.co/400x300", price: 299 },
+      { id: 2, color: "Black", image: "https://placehold.co/400x300", price: 299 },
+      { id: 3, color: "Tan", image: "https://placehold.co/400x300", price: 319 },
     ],
   },
   {
@@ -30,8 +30,8 @@ export const products: Product[] = [
     description: "Sleek and functional wallet designed for those who appreciate simplicity.",
     basePrice: 79,
     variants: [
-      { id: 4, color: "Black", image: "/placeholder.svg", price: 79 },
-      { id: 5, color: "Brown", image: "/placeholder.svg", price: 79 },
+      { id: 4, color: "Black", image: "/https://placehold.co/400x300", price: 79 },
+      { id: 5, color: "Brown", image: "https://placehold.co/400x300", price: 79 },
     ],
   },
   // Añade más productos aquí...

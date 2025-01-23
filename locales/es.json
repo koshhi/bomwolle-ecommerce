@@ -1,0 +1,44 @@
+{
+  "common": {
+    "home": "Inicio",
+    "products": "Productos",
+    "cart": "Carrito",
+    "addToCart": "Añadir al carrito"
+  },
+  "home": {
+    "hero": {
+      "title": "Lujo sostenible al alcance de tu mano",
+      "subtitle": "Descubre los artículos de cuero hechos a mano de Bomwolle. Donde la elegancia atemporal se une a la artesanía ecoconsciente.",
+      "cta": {
+        "shop": "Comprar colección",
+        "learnMore": "Saber más"
+      }
+    },
+    "featuredProducts": "Productos destacados",
+    "values": {
+      "title": "Nuestros valores",
+      "sustainability": {
+        "title": "Sostenibilidad",
+        "description": "Nos comprometemos a utilizar materiales ecológicos y prácticas sostenibles en todos nuestros productos."
+      },
+      "quality": {
+        "title": "Artesanía de calidad",
+        "description": "Cada producto Bomwolle es meticulosamente elaborado por artesanos cualificados para garantizar la más alta calidad."
+      },
+      "design": {
+        "title": "Diseño atemporal",
+        "description": "Nuestros diseños combinan la elegancia clásica con la funcionalidad moderna, creando piezas que resisten el paso del tiempo."
+      }
+    },
+    "mission": {
+      "title": "Nuestra misión",
+      "description": "En Bomwolle, nuestra misión es crear artículos de cuero sostenibles y de alta calidad que combinen la elegancia atemporal con la funcionalidad moderna. Nos esforzamos por minimizar nuestro impacto ambiental mientras maximizamos la belleza y durabilidad de nuestros productos."
+    },
+    "newsletter": {
+      "title": "Únete a nuestro viaje sostenible",
+      "description": "Suscríbete a nuestro boletín para recibir ofertas exclusivas, lanzamientos de nuevos productos y conocer nuestras prácticas sostenibles.",
+      "cta": "Suscribirse ahora"
+    }
+  }
+}
+
